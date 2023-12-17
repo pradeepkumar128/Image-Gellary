@@ -1,9 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;500;700&display=swap");
 
-
-*{
-     margin: 0px;
-     padding: 0px;
-     box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h2 {
+  text-align: center;
+  margin-top: 59px;
+  font-size: 28px;
+  text-transform: uppercase;
+  background: #000000de;
+  color: #fff;
+  line-height: 52px;
+  letter-spacing: 1px;
+}
+.imageBox {
+  margin: 50px;
 }
 
+.imageData {
+  text-align: center;
+}
+.imageData img {
+  margin: 20px;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.btn {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+button {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 15px 40px;
+  background: #000000ba;
+  color: #fff;
+  border-radius: 50px;
+  text-transform: uppercase;
+  transition: all 2s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5200a3c2;
+  color: #000;
+  transition: all 2s;
+}
